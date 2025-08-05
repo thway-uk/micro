@@ -38,8 +38,9 @@ color: #8B0000
 blockquote {
   font-size:1.1em; 
   line-height:1em;
-  /)color:#222222;
+  color:#222222;
 }
+
 small {
   font-size: 0.6em;
   line-height: 0.8em;
@@ -52,7 +53,7 @@ blockquote::before {
   content: none !important;
 }
 em {
-font-weight: 700;
+font-weight: 900;
 font-style:italic;
 font-variant:small-caps;
 font-size: 1.2em;
@@ -105,39 +106,21 @@ transform: translateX(-50%);
 .vintage-double-lines::after {
   bottom: 0;
 }
-.vintage-single-lines {
-  position: relative;
-  padding: 0.5em 0; 
+
+.vintage-first-line {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height:0em;
+  margin:0px 0 0px;
+  padding: 0px
 }
-
-.vintage-single-lines::before,
-.vintage-single-lines::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: black;
-  width:60%;
-  left: 45%;
-transform: translateX(-50%);
-
-}
-
-.vintage-single-lines::before {
-  top: 0;
-}
-
-.vintage-single-lines::after {
-  bottom: 0;
-}
-
 .trirong-thin {
   font-family: "Trirong", serif;
   font-weight: 100;
   font-style: normal;
 }
-
 .trirong-extralight {
   font-family: "Trirong", serif;
   font-weight: 200;
