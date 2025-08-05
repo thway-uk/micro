@@ -4,7 +4,7 @@
 html, body {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 4% 0 5%;
   background-color: #fff;
 }
 body {
@@ -24,7 +24,7 @@ color: #8B0000
 blockquote {
   font-size:1.3em; 
   line-height:1em;
-  color:#222222;
+  /)color:#222222;
 }
 blockquote small {
     font-size:0.6em; 
@@ -33,9 +33,11 @@ blockquote::before {
   content: none !important;
 }
 em {
-font-weight: 600;
+font-weight: 700;
 font-style:italic;
-color:#333333
+//color:#333333;
+font-variant:small-caps;
+font-size: 1.2em
 }
 p {
 line-height:1.1em;
