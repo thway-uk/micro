@@ -65,7 +65,9 @@ line-height:0.95em;
 .intro {
 font-size:1.5em;
 width:70%;
-margin:4em auto 0
+margin:4em auto 0;
+line-height:0.9em;
+letter-spacing:-1px
 }
 .footer {
 width:70%;
