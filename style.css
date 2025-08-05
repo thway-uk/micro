@@ -28,7 +28,14 @@ blockquote {
 blockquote small {
     font-size:0.6em; 
 }
-
+blockquote::before {
+  content: none !important;
+}
+em {
+font-weight: 600;
+font-style:italic;
+color:#000000
+}
 p {
     line-height:1.1em;
 }
