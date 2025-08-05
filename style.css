@@ -31,9 +31,14 @@ blockquote {
   line-height:1em;
   /)color:#222222;
 }
-blockquote small {
-    font-size:0.6em; 
+small {
+  font-size: 0.6em;
+  line-height: 0.8em;
+  display: inline-block;
+  margin-top:10px
 }
+
+
 blockquote::before {
   content: none !important;
 }
