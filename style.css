@@ -19,20 +19,22 @@ body {
     }
 h1 {
 font-variant:small-caps;
-line-height:1em
+line-height:0.8em
 }
+
 h2 {
 font-variant:small-caps;
 line-height:1em;
 font-size:1.1em !important; 
 margin: 35px 0 30px;
 }
+
 a, a:link, a:visited {
 text-decoration: none;
 color: #8B0000
 }
 blockquote {
-  font-size:1.3em; 
+  font-size:1.1em; 
   line-height:1em;
   /)color:#222222;
 }
@@ -51,10 +53,11 @@ em {
 font-weight: 700;
 font-style:italic;
 font-variant:small-caps;
-font-size: 1.2em
+font-size: 1.2em;
+letter-spacing:1px
 }
 p {
-line-height:1.1em;
+line-height:0.95em;
 }
 .intro {
 font-size:1.5em;
@@ -76,7 +79,7 @@ max-width:79vw
 .vintage-double-lines {
   position: relative;
   padding: 1.3em 0; 
-  line-height:1.1em;
+  
 }
 
 .vintage-double-lines::before,
