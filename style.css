@@ -20,7 +20,8 @@ line-height:1em
 h2 {
 font-variant:small-caps;
 line-height:1em;
-font-size:1.1em
+font-size:1.1em !important; 
+margin: 35px 0 30px;
 }
 a, a:link, a:visited {
 text-decoration: none;
@@ -45,7 +46,6 @@ blockquote::before {
 em {
 font-weight: 700;
 font-style:italic;
-//color:#333333;
 font-variant:small-caps;
 font-size: 1.2em
 }
@@ -69,6 +69,35 @@ font-weight: 600;
 p img {
 max-width:79vw
 }
+.vintage-double-lines {
+  position: relative;
+  padding: 1.3em 0; 
+  line-height:1.1em;
+}
+
+.vintage-double-lines::before,
+.vintage-double-lines::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  box-shadow: 0 4px black;
+  width:60%;
+  left: 45%;
+transform: translateX(-50%);
+
+}
+
+.vintage-double-lines::before {
+  top: 0;
+}
+
+.vintage-double-lines::after {
+  bottom: 0;
+}
+
 .trirong-thin {
   font-family: "Trirong", serif;
   font-weight: 100;
