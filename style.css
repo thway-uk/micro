@@ -16,6 +16,10 @@ body {
 h1 {
 font-variant:small-caps
 }
+a, a:visited {
+text-decoration: none;
+color: #8B0000
+}
 blockquote {
   font-size:1.3em; 
   line-height:1em;
