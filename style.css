@@ -16,7 +16,7 @@ body {
 h1 {
 font-variant:small-caps
 }
-a, a:visited {
+a, a:link, a:visited {
 text-decoration: none;
 color: #8B0000
 }
@@ -26,7 +26,7 @@ blockquote {
   color:#222222;
 }
 blockquote small {
-    font-size:0.3em; 
+    font-size:0.6em; 
 }
 
 p {
