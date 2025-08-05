@@ -17,6 +17,11 @@ h1 {
 font-variant:small-caps;
 line-height:1em
 }
+h2 {
+font-variant:small-caps;
+line-height:1em;
+font-size:1.1em
+}
 a, a:link, a:visited {
 text-decoration: none;
 color: #8B0000
