@@ -45,7 +45,9 @@ font-variant:small-caps;
 font-size: 1.7em;
 font-weight: 600;
 }
-    
+p img {
+max-width:79vw
+}
 .trirong-thin {
   font-family: "Trirong", serif;
   font-weight: 100;
