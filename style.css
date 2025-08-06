@@ -39,8 +39,8 @@ line-height:0.9em;
 }
 a:focus {
   outline: none;
-  box-shadow: 0 0 0 2px #8B0000;
-  border-radius: 2px;
+  //box-shadow: 0 0 0 2px #8B0000;
+  //border-radius: 2px;
 }
 blockquote {
   font-size:1.1em; 
@@ -93,9 +93,9 @@ line-height:0.99em;
 .intro {
 font-size:1.5em;
 width:70%;
-margin:4em auto 0;
+margin:0em auto 0;
 line-height:0.9em;
-letter-spacing:-1px
+letter-spacing:-2px
 }
 .footer {
 width:70%;
