@@ -2,80 +2,128 @@
 
 html {
   font-family: 'Trirong', serif;
-  font-size: 17px;
-  line-height: 1;
-  background: #fdfbf7;
-  color: #1c1c1c;
+  font-size: 15px;
+  line-height: 1.1;
+  background: #fbf9f3;
+  color: #444444;
   padding: 2em;
-  max-width: 680px;
+  max-width: 700px;
   margin: auto;
+  letter-spacing: -0.02em;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
+/* Main Headings */
+h1, h2, h3 {
   font-variant: small-caps;
   font-weight: 600;
-  letter-spacing: 0.05em;
-  line-height: 1.1;
-  margin-top: 2em;
-  margin-bottom: 0.5em;
-  text-align: center;
-  //border-top: 1px solid #999;
-  //border-bottom: 1px solid #999;
-  padding: 0.5em 0;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+  margin: 0.5em 0 1em;
+  position: relative;
 }
+h1{
+  font-variant: small-caps;
+  font-size:2.8em
+  }
+
 
 /* Paragraphs */
 p {
-  margin-bottom: 1.2em;
-  text-align: justify;
-  text-indent: 1.5em;
+  margin-bottom: 1.4em;
+  //text-indent: 1.5em;
+  //text-align: justify;
+  //font-variant:small-caps
 }
 
-/* Emphasised or Italic Text */
+/* Emphasis with bold rather than italics */
 i, em {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
+  font-variant: small-caps;
 }
 
 /* Strong */
 strong {
-  font-weight: 700;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-variant: small-caps;
 }
 
-/* Blockquotes */
+/* Blockquotes with top & bottom rules */
 blockquote {
-  font-style: italic;
-  margin: 2em 0;
-  padding: 1em 1.5em;
-  border-top: 1px solid #444;
-  border-bottom: 1px solid #444;
-  background: #f5f3ed;
-  color: #333;
+  margin: 1em 0;
+  padding: 0.9em 1.5em;
+  border-top: 0.3px solid #222;
+  border-bottom: 0.3px solid #222;
+  //background: #f8f5ef;
+  //font-style: italic;
+  position: relative;
+  font-size: 1.5em;
+  font-variant:small-caps;
+  font-weight:800;
+  line-height:0.7
 }
 
-/* Horizontal Rule */
+blockquote::before,
+blockquote::after {
+  content: "";
+  font-size: 1.2em;
+  position: absolute;
+  color: #999;
+}
+
+blockquote::before {
+  top: 0;
+  left: -1em;
+}
+
+blockquote::after {
+  bottom: 0;
+  right: -1em;
+}
+
+/* Horizontal rule – printer’s double rule */
 hr {
   border: none;
-  border-top: 2px double #888;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #999;
+  height: 0;
   margin: 3em 0;
 }
 
-/* Small Print */
+/* Optional manual rule */
+.rule {
+  text-align: center;
+  margin: 2em 0;
+  letter-spacing: 0.5em;
+  color: #555;
+}
+.rule::before {
+  content: "· · · · ·";
+}
+
+/* Small print */
 small {
-  font-size: 0.8em;
-  line-height: 1.2;
+  font-size: 0.65em;
   color: #666;
-  display: block;
-  margin-top: 1em;
+  //display: block;
   text-align: right;
+  margin-top: 1.5em;
+  font-variant: small-caps;
 }
 
 /* Links */
 a {
-  color: #004a4f;
-  text-decoration: underline dotted;
+  color: #8B0000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-variant:small-caps;
+  font-size:1.105em;
+  font-weight:800
+  
 }
 a:hover {
   text-decoration-style: solid;
+  color: #000;
 }
