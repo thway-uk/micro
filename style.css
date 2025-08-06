@@ -36,7 +36,7 @@ a, a:visited {
 text-decoration: none;
 color: #8B0000;
 padding:3px;
-line-height:1.1em
+//line-height:1em
 }
 a:hover {
 text-decoration: underline;
