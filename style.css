@@ -37,11 +37,11 @@ text-decoration: none;
 color: #8B0000;
 padding:3px;
 position:relative;
-z:index 1
+z-index:1
 }
 a:hover {
 text-decoration: underline;
-color: #000009;
+color: #000000;
 }
 a:focus {
   outline: none;
@@ -93,12 +93,17 @@ font-size: 1.2em
 p {
 
 }
-p.intro {
+.intro {
 font-size:1.8em;
 width:80%;
 letter-spacing:-0.5px;
 margin:25% auto;
 line-height:0.8em
+}
+p.int-div a {
+font-size:1.9em;
+font-variant:small-caps;
+line-height:0.6em
 }
 .footer {
 width:70%;
