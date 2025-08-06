@@ -45,7 +45,6 @@ color: #000000;
 }
 a:focus {
   outline: none;
-  color:red
 }
 blockquote {
   font-size:1.1em; 
@@ -97,13 +96,19 @@ p {
 font-size:1.8em;
 width:80%;
 letter-spacing:-0.5px;
-margin:25% auto;
+margin:25% 0 25% 5%;
 line-height:0.8em
 }
-p.int-div a {
+
+.int-div {
+margin:20px 0;
+
+}
+.int-link {
 font-size:1.9em;
 font-variant:small-caps;
-line-height:0.6em
+//line-height:0.6em;
+display:inline-block;
 }
 .footer {
 width:70%;
