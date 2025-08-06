@@ -3,7 +3,7 @@
 html {
   font-family: 'Trirong', serif;
   font-size: 15px;
-  line-height: 1.1;
+  line-height: 1.2;
   background: #fbf9f3;
   color: #444444;
   padding: 2em;
@@ -17,7 +17,7 @@ h1, h2, h3 {
   font-variant: small-caps;
   font-weight: 600;
   letter-spacing: -0.03em;
-  line-height: 0.9;
+  line-height: 1.1;
   margin: 0.5em 0 1em;
   position: relative;
 }
@@ -62,7 +62,7 @@ blockquote {
   font-size: 1.5em;
   font-variant:small-caps;
   font-weight:800;
-  line-height:0.7
+  line-height:1
 }
 
 blockquote::before,
