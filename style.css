@@ -107,8 +107,10 @@ margin:20px 0;
 .int-link {
 font-size:1.9em;
 font-variant:small-caps;
-//line-height:0.6em;
+line-height:0.6em;
 display:inline-block;
+display:relative;
+z-index:1;
 }
 .footer {
 width:70%;
