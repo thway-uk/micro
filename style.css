@@ -45,6 +45,7 @@ color: #000009;
 }
 a:focus {
   outline: none;
+  color:red
 }
 blockquote {
   font-size:1.1em; 
@@ -87,8 +88,7 @@ em {
 font-weight: 900;
 font-style:italic;
 font-variant:small-caps;
-font-size: 1.2em;
-overflow:hidden
+font-size: 1.2em
 }
 p {
 
