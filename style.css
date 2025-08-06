@@ -16,12 +16,13 @@ body {
   font-weight: 500;
   font-style: normal;
   color:#444444;
+  line-height:0.9em
     }
 h1 {
 font-variant:small-caps;
 line-height:0.8em;
 margin: 30px 0 30px;
-font-size:40px
+font-size:40px;
 }
 
 h2 {
@@ -34,8 +35,8 @@ margin: 35px 0 30px;
 a, a:visited {
 text-decoration: none;
 color: #8B0000;
-padding:0px;
-line-height:1em;
+padding:3px;
+line-height:1.1em
 }
 a:focus {
   outline: none;
@@ -83,15 +84,13 @@ font-weight: 900;
 font-style:italic;
 font-variant:small-caps;
 font-size: 1.2em;
-letter-spacing:1px;
 }
 p {
-line-height:0.99em;
+
 }
 p.intro {
 font-size:1.1em;
 width:80%;
-line-height:0.8em;
 letter-spacing:-0.5px;
 margin:25% auto
 }
