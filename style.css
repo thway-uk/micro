@@ -1,129 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@300;400;600&display=swap');
 
 html {
   font-family: 'Trirong', serif;
-  font-size: 15px;
-  line-height: 1.2;
-  background: #fbf9f3;
+  font-size: 16px;
+  line-height: 1.4;
   color: #444444;
-  padding: 2em;
-  max-width: 700px;
-  margin: auto;
-  letter-spacing: -0.02em;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 2em;
+  letter-spacing: 0.01em;
 }
 
-/* Main Headings */
+/* Headings – small caps, left aligned */
 h1, h2, h3 {
   font-variant: small-caps;
   font-weight: 600;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  margin: 0.5em 0 1em;
-  position: relative;
+  text-align: left;
+  //letter-spacing: -0.1em;
+  margin: 1em 0 1em;
+  line-height: 0.9;
 }
-h1{
-  font-variant: small-caps;
-  font-size:2.8em
+
+/* Paragraphs – justified, no indent */
+p {
+  margin: 1.2em 0;
+ // text-align: justify;
+  text-indent: 0;
+}
+
+/* First line in small caps and bold */
+
+
+/* Links – clean and unobtrusive */
+a {
+  //text-decoration: none;
+  //padding: 0.1em 0.1em;
+  color:#000000;
+  //font-variant:small-caps;
+  font-weight:200;
+  text-decoration: underline dotted;
+text-decoration-color: rgba(0,0,0,0.3); /* light transparent */
+text-decoration-thickness: 1px;
+font-weight: 400;
+ 
   }
 
-
-/* Paragraphs */
-p {
-  margin-bottom: 1.4em;
-  //text-indent: 1.5em;
-  //text-align: justify;
-  //font-variant:small-caps
+a:hover {
+  text-decoration-style: solid;
 }
 
-/* Emphasis with bold rather than italics */
-i, em {
-  font-style: normal;
-  font-weight: 800;
-  font-variant: small-caps;
+/* Emphasis – bold, no italics */
+em {
+  font-style: italic;
+  font-weight: 500;
+  
+}
+i {
+  font-style:  italic;
+  //font-variant:small-caps
+}
+b {
+  font-weight: 400;
+  font-style:  italic;
+  //font-variant:small-caps
+
 }
 
 /* Strong */
 strong {
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  font-variant: small-caps;
+  font-weight: 700;
 }
 
-/* Blockquotes with top & bottom rules */
+/* Blockquotes – small caps, slightly bigger, left aligned */
 blockquote {
-  margin: 1em 0;
-  padding: 0.9em 1.5em;
-  border-top: 0.3px solid #222;
-  border-bottom: 0.3px solid #222;
-  //background: #f8f5ef;
-  //font-style: italic;
-  position: relative;
-  font-size: 1.5em;
-  font-variant:small-caps;
-  font-weight:800;
-  line-height:1
+  font-variant: small-caps;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 2.5em 0;
+  padding: 0.5em 1em;
+  text-align: left;
+  line-height: 1;
+  color:#222222;
+    border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  
+}
+blockquote em, blockquote i, blockquote b {
+  font-style:normal
 }
 
-blockquote::before,
-blockquote::after {
-  content: "";
-  font-size: 1.2em;
-  position: absolute;
-  color: #999;
-}
-
-blockquote::before {
-  top: 0;
-  left: -1em;
-}
-
-blockquote::after {
-  bottom: 0;
-  right: -1em;
-}
-
-/* Horizontal rule – printer’s double rule */
+/* Horizontal rule – subtle */
 hr {
   border: none;
-  border-top: 1px solid #222;
-  border-bottom: 1px solid #999;
-  height: 0;
+  border-top: 1px solid #888;
   margin: 3em 0;
 }
 
-/* Optional manual rule */
-.rule {
-  text-align: center;
-  margin: 2em 0;
-  letter-spacing: 0.5em;
-  color: #555;
-}
-.rule::before {
-  content: "· · · · ·";
-}
-
-/* Small print */
+/* Small notes */
 small {
-  font-size: 0.65em;
-  color: #666;
-  //display: block;
-  text-align: right;
-  margin-top: 1.5em;
-  font-variant: small-caps;
-}
-
-/* Links */
-a {
-  color: #8B0000;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  font-variant:small-caps;
-  font-size:1.105em;
-  font-weight:800
-  
-}
-a:hover {
-  text-decoration-style: solid;
-  color: #000;
+  font-size: 0.6em;
+  font-variant:small-caps
 }
