@@ -16,7 +16,7 @@ body {
   font-weight: 500;
   font-style: normal;
   color:#444444;
-  line-height:0.9em
+  line-height:1em
     }
 h1 {
 font-variant:small-caps;
@@ -36,7 +36,8 @@ a, a:visited {
 text-decoration: none;
 color: #8B0000;
 padding:3px;
-//line-height:1em
+position:relative;
+z:index 1
 }
 a:hover {
 text-decoration: underline;
@@ -47,7 +48,6 @@ a:focus {
 }
 blockquote {
   font-size:1.1em; 
-  line-height:1em;
   color:#222222;
 }
 small {
@@ -88,15 +88,17 @@ font-weight: 900;
 font-style:italic;
 font-variant:small-caps;
 font-size: 1.2em;
+overflow:hidden
 }
 p {
 
 }
 p.intro {
-font-size:1.1em;
+font-size:1.8em;
 width:80%;
 letter-spacing:-0.5px;
-margin:25% auto
+margin:25% auto;
+line-height:0.8em
 }
 .footer {
 width:70%;
