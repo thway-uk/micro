@@ -12,7 +12,6 @@ html {
   font-weight:500
 }
 
-/* Headings – small caps, left aligned */
 h1, h2, h3 {
   font-variant: small-caps;
   font-weight: 600;
@@ -28,10 +27,9 @@ p {
 a {
   
   color:#000000;
-  //font-variant:small-caps;
   font-weight:200;
   text-decoration: underline dotted;
-text-decoration-color: rgba(0,0,0,0.3); /* light transparent */
+text-decoration-color: rgba(0,0,0,0.3); 
 text-decoration-thickness: 1px;
 font-weight: 400;
  
@@ -41,7 +39,6 @@ a:hover {
   text-decoration-style: solid;
 }
 
-/* Emphasis – bold, no italics */
 em {
   font-style: italic;
   font-weight: 500;
@@ -49,7 +46,6 @@ em {
 }
 i {
   font-style:  italic;
-  //font-variant:small-caps
 }
 b {
   font-weight: 400;
@@ -57,23 +53,20 @@ b {
   //font-variant:small-caps
 
 }
-
-/* Strong */
 strong {
   font-weight: 700;
 }
 
-/* Blockquotes – small caps, slightly bigger, left aligned */
 blockquote {
   font-variant: small-caps;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.3em;
   margin: 2.5em 0;
   padding: 0.5em 1em;
   text-align: left;
   line-height: 1;
   color:#222222;
-    border-top: 1px solid #888;
+  border-top: 1px solid #888;
   border-bottom: 1px solid #888;
   
 }
@@ -81,15 +74,18 @@ blockquote em, blockquote i, blockquote b {
   font-style:normal
 }
 
-/* Horizontal rule – subtle */
 hr {
   border: none;
   border-top: 1px solid #888;
   margin: 3em 0;
 }
 
-/* Small notes */
 small {
   font-size: 0.6em;
   font-variant:small-caps
+}
+.more-link {
+font-style:700;
+font-size: 1.6em;
+font-variant: small-caps;
 }
