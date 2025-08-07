@@ -50,9 +50,13 @@ i {
 b {
   font-weight: 400;
   font-style:  italic;
-  //font-variant:small-caps
-
 }
+.bold {
+    font-weight:800;
+    font-variant:small-caps;
+    font-size: 1.3em
+}
+
 strong {
   font-weight: 700;
 }
