@@ -4,11 +4,12 @@ html {
   font-family: 'Trirong', serif;
   font-size: 16px;
   line-height: 1.4;
-  color: #444444;
+  color: #000;
   max-width: 480px;
   margin: 0 auto;
   padding: 0 2em;
   letter-spacing: 0.01em;
+  font-weight:500
 }
 
 /* Headings – small caps, left aligned */
@@ -16,25 +17,16 @@ h1, h2, h3 {
   font-variant: small-caps;
   font-weight: 600;
   text-align: left;
-  //letter-spacing: -0.1em;
   margin: 1em 0 1em;
   line-height: 0.9;
 }
-
-/* Paragraphs – justified, no indent */
 p {
   margin: 1.2em 0;
- // text-align: justify;
   text-indent: 0;
 }
 
-/* First line in small caps and bold */
-
-
-/* Links – clean and unobtrusive */
 a {
-  //text-decoration: none;
-  //padding: 0.1em 0.1em;
+  
   color:#000000;
   //font-variant:small-caps;
   font-weight:200;
