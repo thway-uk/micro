@@ -62,13 +62,13 @@ strong {
 }
 
 blockquote {
-  font-variant: small-caps;
-  font-weight: 600;
-  font-size: 1.3em;
+  //font-variant: small-caps;
+  font-weight: 500;
+  font-size: 1.1em;
   margin: 2.5em 0;
   padding: 0.5em 1em;
   text-align: left;
-  line-height: 1;
+  line-height: 0.95;
   color:#222222;
   border-top: 1px solid #888;
   border-bottom: 1px solid #888;
